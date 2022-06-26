@@ -1,0 +1,85 @@
+/*
+=============== 
+Global Styles
+===============
+*/
+
+h1,
+h2 {
+  text-transform: capitalize;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+body{
+  background-color: #F1F5F8;
+}
+
+@media screen and (min-width: 992px) {
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}}
+
+/*
+=============== 
+Container
+===============
+*/
+main {
+  min-height: calc(100vh - 3rem);
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.color {
+  color: #fff;
+}
+.btn {
+  text-transform: uppercase;
+  background: transparent;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+
+/* *****************************************************************
+Porfolio
+***************************************************************** */
+
+.porfolio {
+	background: radial-gradient(circle at 30% 120%, #ffb56b, #ffaa65, #ff8953, #ff4e3a, #ff1a3c, #f5006b, #d10098, #ab00ad, #67008d, #3d0074, #260062, #1f005c);
+	;
+	padding: .5rem 0;
+	text-align: center;
+	color: white;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+}
+
+.porfolio a {
+	color: aquamarine;
+	display: contents;
+}
+
+.porfolio .fa-brands {
+	font-size: 3.2rem;
+	margin-right: 1rem;
+}
+
+.porfolio .fa-github {
+	color: #BABBBD;
+}
+
+.porfolio .fa-linkedin-in {
+	color: #03679E;
+}
